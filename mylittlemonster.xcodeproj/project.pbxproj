@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F48698521C4685B9005749D9 /* SelectCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48698511C4685B9005749D9 /* SelectCharacterViewController.swift */; };
+		F4967BD01C45339A00B760DF /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4967BCF1C45339A00B760DF /* DragImg.swift */; };
+		F4967BD21C45512000B760DF /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4967BD11C45512000B760DF /* MonsterImg.swift */; };
+		F4967BD71C45A72700B760DF /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4967BD31C45A72700B760DF /* bite.wav */; };
+		F4967BD81C45A72700B760DF /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4967BD41C45A72700B760DF /* death.wav */; };
+		F4967BD91C45A72700B760DF /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4967BD51C45A72700B760DF /* heart.wav */; };
+		F4967BDA1C45A72700B760DF /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4967BD61C45A72700B760DF /* skull.wav */; };
+		F4967BDC1C45A73000B760DF /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4967BDB1C45A73000B760DF /* cave-music.mp3 */; };
+		F4967BDE1C45B30C00B760DF /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4967BDD1C45B30C00B760DF /* Minecraft.ttf */; };
 		F49DDC651C4457C200DA8B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DDC641C4457C200DA8B7B /* AppDelegate.swift */; };
 		F49DDC671C4457C200DA8B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DDC661C4457C200DA8B7B /* ViewController.swift */; };
 		F49DDC6A1C4457C200DA8B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49DDC681C4457C200DA8B7B /* Main.storyboard */; };
@@ -15,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F48698511C4685B9005749D9 /* SelectCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCharacterViewController.swift; sourceTree = "<group>"; };
+		F4967BCF1C45339A00B760DF /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		F4967BD11C45512000B760DF /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		F4967BD31C45A72700B760DF /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		F4967BD41C45A72700B760DF /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		F4967BD51C45A72700B760DF /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		F4967BD61C45A72700B760DF /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+		F4967BDB1C45A73000B760DF /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		F4967BDD1C45B30C00B760DF /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		F49DDC611C4457C200DA8B7B /* mylittlemonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mylittlemonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49DDC641C4457C200DA8B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49DDC661C4457C200DA8B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +72,21 @@
 		F49DDC631C4457C200DA8B7B /* mylittlemonster */ = {
 			isa = PBXGroup;
 			children = (
+				F4967BDD1C45B30C00B760DF /* Minecraft.ttf */,
+				F4967BD31C45A72700B760DF /* bite.wav */,
+				F4967BDB1C45A73000B760DF /* cave-music.mp3 */,
+				F4967BD41C45A72700B760DF /* death.wav */,
+				F4967BD51C45A72700B760DF /* heart.wav */,
+				F4967BD61C45A72700B760DF /* skull.wav */,
 				F49DDC641C4457C200DA8B7B /* AppDelegate.swift */,
 				F49DDC661C4457C200DA8B7B /* ViewController.swift */,
 				F49DDC681C4457C200DA8B7B /* Main.storyboard */,
 				F49DDC6B1C4457C200DA8B7B /* Assets.xcassets */,
 				F49DDC6D1C4457C200DA8B7B /* LaunchScreen.storyboard */,
 				F49DDC701C4457C200DA8B7B /* Info.plist */,
+				F4967BCF1C45339A00B760DF /* DragImg.swift */,
+				F4967BD11C45512000B760DF /* MonsterImg.swift */,
+				F48698511C4685B9005749D9 /* SelectCharacterViewController.swift */,
 			);
 			path = mylittlemonster;
 			sourceTree = "<group>";
@@ -122,6 +149,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4967BD81C45A72700B760DF /* death.wav in Resources */,
+				F4967BDC1C45A73000B760DF /* cave-music.mp3 in Resources */,
+				F4967BD91C45A72700B760DF /* heart.wav in Resources */,
+				F4967BDE1C45B30C00B760DF /* Minecraft.ttf in Resources */,
+				F4967BDA1C45A72700B760DF /* skull.wav in Resources */,
+				F4967BD71C45A72700B760DF /* bite.wav in Resources */,
 				F49DDC6F1C4457C200DA8B7B /* LaunchScreen.storyboard in Resources */,
 				F49DDC6C1C4457C200DA8B7B /* Assets.xcassets in Resources */,
 				F49DDC6A1C4457C200DA8B7B /* Main.storyboard in Resources */,
@@ -135,6 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48698521C4685B9005749D9 /* SelectCharacterViewController.swift in Sources */,
+				F4967BD21C45512000B760DF /* MonsterImg.swift in Sources */,
+				F4967BD01C45339A00B760DF /* DragImg.swift in Sources */,
 				F49DDC671C4457C200DA8B7B /* ViewController.swift in Sources */,
 				F49DDC651C4457C200DA8B7B /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +322,7 @@
 				F49DDC751C4457C200DA8B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
